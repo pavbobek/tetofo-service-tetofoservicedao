@@ -1,3 +1,3 @@
-# Service Console
+# Service DAO
 
 > Basic DAO interface
