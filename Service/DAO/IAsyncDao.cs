@@ -11,5 +11,6 @@ public interface IAsyncDAO<R,S> {
     Task DeleteAsync(S s);
     Task<R> GetAsync(S s);
     Task<IList<R>> GetAllAsync();
+    Task SaveAsync(R r);
     Task UpdateAsync(R r, S s);
 }
