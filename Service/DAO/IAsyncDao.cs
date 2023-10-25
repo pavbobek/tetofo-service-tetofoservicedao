@@ -8,8 +8,8 @@ namespace tetofo.Service.DAO;
 /// Using S as identification object to restore.
 /// </summary>
 public interface IAsyncDAO<R,S> {
-    Task Delete(S s);
-    Task<R> Get (S s);
-    Task<IList<R>> GetAll();
-    Task Update(R r, S s);
+    Task DeleteAsync(S s);
+    Task<R> GetAsync(S s);
+    Task<IList<R>> GetAllAsync();
+    Task UpdateAsync(R r, S s);
 }
